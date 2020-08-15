@@ -1,0 +1,62 @@
+button {
+    padding: 0.25rem;
+    outline: none;
+    border: solid 1px black;
+    color: black;
+    background: white;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: black;
+    color: white;
+  }
+  
+  button::after {
+    content: "(after psuedo element)"
+  }
+  
+  button.float {
+    float: right;
+  }
+  
+  button.clear {
+    clear: both;
+  }
+  
+  table {
+    border: solid 1px black;
+  }
+  
+  table td,
+  table th {
+    border: 1px solid black;
+    padding: 1rem;
+  }
+  
+  table tr:first-child {
+    background: black;
+    color: white;
+  }
+  
+  table tr:last-child {
+    background: blue;
+    color: white;
+  }
+  
+  marquee {
+    background: red;
+    padding: 1rem;
+    font-weight: 800;
+    text-decoration: underline;
+  }
+  
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
