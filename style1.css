@@ -4,7 +4,7 @@ nav {
     padding: 1rem;
     width: 100vw;
     justify-content: space-between;
-    color: red;
+    color: rgb(0, 0, 0);
   }
   
   nav > .left {
